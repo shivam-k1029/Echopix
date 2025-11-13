@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newaccount.css">
+    <style>
+        body {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>EchoPix</h1>
+    </header>
+
+    <main>
+        
+        <form action="welcome.html" method="get">
+            <h2 id="newaccount">Create a New Account</h2>
+            <br>
+            <label for="firstname"></label>
+            <input type="text" id="firstname" name="firstname" placeholder="First name">
+            <br><br>
+            <label for="lastname"></label>
+            <input type="text" id="lastname" name="lastname" placeholder="Last name">
+            <br><br>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email or mobile number">
+            <br><br>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="New password">
+            <br><br>
+            <button type="submit">Sign Up</button>
+</body>
+</html>

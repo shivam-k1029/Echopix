@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="echo_pix.css">
+    <style>
+    .page-transition {
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+     }
+    </style>
+    <script>
+    function transitionToPage(event) {
+        event.preventDefault();
+        document.body.classList.add('page-transition');
+        setTimeout(() => {
+            window.location.href = 'newaccount.html';
+        }, 500);
+    }
+</script>
+</head>
+<body>
+    <main>
+        <div id="echopix">
+            <h1>EchoPix</h1>
+        </div>
+        <div id="echotext">
+            <h4><pre>EchoPix helps you connect and share
+with the people in your life.</pre></h4>
+        </div>
+        <div id="form">
+            <form action="welcome.html" method="get">
+                <label for="loginform">
+                <input style="width: 280px; height: 50px;" type="text" id="loginform" value="" placeholder="  Email address or phone number">
+                </label>
+                <br>
+                <label for="passwordform">
+                <input id="passwordform" style="width: 280px; height: 50px;" type="password" value="" placeholder="  Password">
+                </label>
+                <br>
+                <button type="submit" id="login">Log in</button>
+                <br>
+                <a href="#.com" id="forgotten">Forgotten password?</a>
+                <div class="line"></div>
+
+                <button type="button" onclick="transitionToPage(event)" onclick="window.location.href='newaccount.html'" id="createaccount">Create new account</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div id="footerlinks">
+            <a class="lang" href="#.com">English (UK)</a>
+            <a class="lang" href="#.com">हिन्दी</a>
+            <a class="lang" href="#.com">ਪੰਜਾਬੀ</a>
+            <a class="lang" href="#.com">اردو</a>
+            <a class="lang" href="#.com">বাংলা</a>
+            <a class="lang" href="#.com">తెలుగు</a>
+            <a class="lang" href="#.com">मराठी</a>
+            <a class="lang" href="#.com">தமிழ்</a>
+            <a class="lang" href="#.com">ગુજરાતી</a>
+            <a class="lang" href="#.com">ಕನ್ನಡ</a>
+            <a class="lang" href="#.com">മലയാളം</a>
+            <a class="lang" href="#.com">ਪੰਜਾਬੀ</a>
+            <botton class="lang" id="more">+</botton>
+        </div>
+        <div id="lines">
+
+        </div>
+        <div id="help">
+            <a class="D" href="#.com">Help</a>
+            <a class="D" href="#.com">About</a>
+            <a class="D" href="#.com">Privacy</a>
+            <a class="D" href="#.com">Terms</a>
+            <a class="D" href="#.com">Locations</a>
+            <a class="D" href="#.com">Cookies</a>
+            <a class="D" href="#.com">Ads</a>
+            <a class="D" href="#.com">More</a>
+        </div>
+        <div id="copyright">
+            <p>EchoPix © 2024</p>
+        </div>
+    </footer>
+   
+    
+</body>
+</html>

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    background-color: #f0f0f0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#echopix{
+    position: relative;
+    top: 180px;
+    left: 20%;
+    font-size: 50px;
+    color: #4267B2;
+}
+
+#echotext{
+    position: relative;;
+    top: 200px;
+    left: 20%;
+    
+    font-size: 20px;
+    color: black;
+}
+
+#form{
+    position: relative;
+    bottom: 60px;
+    left: 70%;
+    line-height: 60px;
+    
+}
+
+form{
+    height: 350px;
+    width: 370px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    right: 60px;
+}
+
+label{
+    height: 50%;
+
+}
+
+#loginform{
+    border: 1px solid black;
+    border-radius: 6px;
+    position: relative;
+    left: 25px;
+}
+
+#passwordform{
+    border: 1px solid black;
+    border-radius: 6px;
+    position: relative;
+    left: 25px;
+}
+
+#login{
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 25px;
+}
+
+#login:hover{
+    opacity: 0.9;   
+}   
+
+#login:active{
+    opacity: 0.8;   
+}
+
+#forgotten{
+    position: relative;
+    bottom: 20px;
+    left: 110px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.line {
+    width: 270px;
+    height: 1px;
+    background-color: #000;
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+   
+}
+
+#createaccount{
+    position: relative;
+    border: none;
+    left: 25px;
+    height: 50px;
+    width: 280px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #42b72a;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+footer{
+    position: relative;
+    top: 150px;
+    height: 150px;
+    background-color: white;
+    
+}
+
+#more{
+    height: 0px;
+    border: none;
+    background-color: lightslategray;
+    cursor: pointer;
+    color: black;
+    
+    
+}
+
+.lang{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+
+#footerlinks{  
+    position: relative;
+    left: 280px;
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+    line-height: 80px;
+}
+
+#footerlinks:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    position: relative;
+    left: 280px;
+    bottom: 50px;
+    font-size: 15px;
+}
+
+#lines{
+    width: 655px;
+    height: 1px;
+    background-color: #000;
+    position: relative;
+    bottom: 40px;
+    left: 280px;
+}
+
+#help{
+    position: relative;
+    left: 280px;
+    bottom: 60px;
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+    line-height: 80px;
+    
+}
+
+.D{
+    text-decoration: none;
+}
+
+input{
+    padding: 10px;
+}
