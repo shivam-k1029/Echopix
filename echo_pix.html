@@ -18,6 +18,7 @@
         setTimeout(() => {
             window.location.href = 'newaccount.html';
         }, 500);
+
     }
 </script>
 </head>
@@ -40,7 +41,7 @@ with the people in your life.</pre></h4>
                 <input id="passwordform" style="width: 280px; height: 50px;" type="password" value="" placeholder="  Password">
                 </label>
                 <br>
-                <button type="submit" id="login">Log in</button>
+                <button type="button" id="login" onclick="transitionToPage(event, 'mainpage.html')">Log in</button>
                 <br>
                 <a href="#.com" id="forgotten">Forgotten password?</a>
                 <div class="line"></div>
