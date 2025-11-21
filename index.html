@@ -11,14 +11,7 @@
         transition: opacity 0.5s ease-out;
      }
     </style>
-    <script>
-    function transitionToPage(event) {
-        event.preventDefault();
-        document.body.classList.add('page-transition');
-        setTimeout(() => {
-            window.location.href = 'newaccount.html';
-        }, 500)};
-</script>
+    
 </head>
 <body>
     <main>
@@ -44,7 +37,7 @@ with the people in your life.</pre></h4>
                 <a href="#.com" id="forgotten">Forgotten password?</a>
                 <div class="line"></div>
 
-                <button type="button" onclick="transitionToPage(event)" onclick="window.location.href='newaccount.html'" id="createaccount">Create new account</button>
+                <button type="button" onclick="location.href='newaccount.html'" id="createaccount">Create new account</button>
 
             </form>
         </div>
