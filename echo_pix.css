@@ -79,6 +79,7 @@ label{
     cursor: pointer;
     position: relative;
     left: 25px;
+    bottom: 50px;
 }
 
 #login:hover{
@@ -91,7 +92,7 @@ label{
 
 #forgotten{
     position: relative;
-    bottom: 20px;
+    bottom: 70px;
     left: 110px;
     font-size: 15px;
     text-decoration: none;
@@ -109,6 +110,7 @@ label{
 
 #createaccount{
     position: relative;
+    bottom: 70px;
     border: none;
     left: 25px;
     height: 50px;
@@ -202,4 +204,9 @@ input{
 #createaccount:active{
     opacity: 0.9;
      background-color: black;
+}
+
+.line{
+    position: relative;
+    bottom: 75px;
 }
